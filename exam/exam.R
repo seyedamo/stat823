@@ -30,6 +30,6 @@ pairs(age2)
 pairs(age3)
 
 
-p <- ggpairs(dt[Age.group == '2'], columns = c(5:13), axisLabels = "show", columnLabels = c("wght", "lgth", ))
+p <- ggpairs(dt[Age.group == '2'], columns = c(5:13), axisLabels = "internal")
 
 p + theme(axis.text.x = element_text(angle = 90, vjust = 1, hjust = 1, color = "black"))
